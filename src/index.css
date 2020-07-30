@@ -2,6 +2,11 @@ html {
   box-sizing: border-box;
 }
 
-*, ::after, ::before{
+*, ::after, ::before {
   box-sizing: inherit;
+}
+
+body {
+  background-color: rgb(236 236 236);
+  font-family: 'Roboto', sans-serif;
 }
