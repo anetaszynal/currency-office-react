@@ -1,8 +1,9 @@
 import React from "react";
+import "./style.css"
 
 const Section = ({ title, body }) => (
-  <section>
-    <h2>{title}</h2>
+  <section className="section">
+    <h2 class="section__title">{title}</h2>
     <div>{body}</div>
   </section>
 );
