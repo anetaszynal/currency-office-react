@@ -11,12 +11,12 @@ export const currencies = [
   },
   {
     shortname: "GBP",
-    name: "Funt",
+    name: "Funt brytyjski",
     rate: 4.8761,
   },
   {
     shortname: "USD",
-    name: "Dolar",
+    name: "Dolar ameryksański",
     rate: 3.7549,
   },
 ]
