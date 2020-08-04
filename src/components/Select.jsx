@@ -8,7 +8,8 @@ export const Select = ({ title, onSelectChange, currency }) => {
       <select
         className="form__field"
         value={currency}
-        onChange={onSelectChange}>
+        onChange={onSelectChange}
+      >
         {currencies.map((({ shortname, name }) => (
           <option
             key={shortname}

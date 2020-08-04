@@ -34,23 +34,19 @@ function App() {
       <Section
         title="Wprowadź dane:"
         additionalParagraph={<Clock />}
-        body={<Form
+      >
+        <Form
           calculateResult={calculateResult}
           calculateRate={calculateRate}
-        />}
-      >
+        />
       </Section>
-      <Section
-        title="Wynik:"
-        body={<Result
+      <Section title="Wynik:">
+        <Result
           result={result}
           exchangeRate={exchangeRate}
-        />}
-      >
+        />
       </Section>
-      <Footer
-        title="Kontakt:">
-      </Footer>
+      <Footer title="Kontakt:" />
     </Container>
   );
 }
