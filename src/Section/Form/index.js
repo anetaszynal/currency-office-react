@@ -1,7 +1,7 @@
 import React, { useState, useEffect } from "react";
 import Select from "./Select";
-import "./style.css"
-import { currencies } from "../../currencies"
+import "./style.css";
+import { currencies } from "../../currencies";
 
 const Form = ({ calculateResult, calculateRate }) => {
   const [amount, setAmount] = useState("");
@@ -18,6 +18,7 @@ const Form = ({ calculateResult, calculateRate }) => {
   const onTransactionFormClick = (event) => {
     event.preventDefault();
     calculateResult(startingRate, finalRate, yourCurrency, finalCurrency, amount);
+    setAmount("")
   }
 
   const onExchangeRateFormClick = (event) => {
