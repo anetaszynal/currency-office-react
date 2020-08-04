@@ -1,0 +1,129 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="05519b9f-2c06-45b2-bca3-295583b9f3ec" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/codeStyles/codeStyleConfig.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/currency-office-react.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="JavaScript File" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="ProjectId" id="1feIs6Ikl91Ba1usRFEn6v5DKHN" />
+  <component name="ProjectLevelVcsManager">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
+  <component name="ProjectViewState">
+    <option name="autoscrollToSource" value="true" />
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+    <option name="showMembers" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="node.js.detected.package.eslint" value="true" />
+    <property name="node.js.path.for.package.eslint" value="project" />
+    <property name="node.js.selected.package.eslint" value="(autodetect)" />
+    <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
+    <property name="nodejs_npm_path_reset_for_default_project" value="true" />
+    <property name="nodejs_package_manager_path" value="npm" />
+    <property name="settings.editor.selected.configurable" value="preferences.sourceCode.JavaScript" />
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src" />
+      <recent name="$PROJECT_DIR$/assets" />
+      <recent name="$PROJECT_DIR$/src/common/consts" />
+      <recent name="$PROJECT_DIR$/src/components" />
+      <recent name="$PROJECT_DIR$/src/components/Form" />
+    </key>
+  </component>
+  <component name="RunManager">
+    <configuration name="start" type="js.build_tools.npm" temporary="true" nameIsGenerated="true">
+      <package-json value="$PROJECT_DIR$/package.json" />
+      <command value="run" />
+      <scripts>
+        <script value="start" />
+      </scripts>
+      <node-interpreter value="project" />
+      <envs />
+      <method v="2" />
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="npm.start" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="05519b9f-2c06-45b2-bca3-295583b9f3ec" name="Default Changelist" comment="" />
+      <created>1596572334984</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1596572334984</updated>
+      <workItem from="1596572336745" duration="2565000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="2" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="628" y="298" key="FileChooserDialogImpl" timestamp="1596573265689">
+      <screen x="0" y="23" width="1680" height="1027" />
+    </state>
+    <state x="628" y="298" key="FileChooserDialogImpl/0.23.1680.1027@0.23.1680.1027" timestamp="1596573265689" />
+    <state width="1659" height="114" key="GridCell.Tab.0.bottom" timestamp="1596574753538">
+      <screen x="0" y="23" width="1680" height="1027" />
+    </state>
+    <state width="1659" height="114" key="GridCell.Tab.0.bottom/0.23.1680.1027@0.23.1680.1027" timestamp="1596574753538" />
+    <state width="1659" height="114" key="GridCell.Tab.0.center" timestamp="1596574753537">
+      <screen x="0" y="23" width="1680" height="1027" />
+    </state>
+    <state width="1659" height="114" key="GridCell.Tab.0.center/0.23.1680.1027@0.23.1680.1027" timestamp="1596574753537" />
+    <state width="1659" height="114" key="GridCell.Tab.0.left" timestamp="1596574753537">
+      <screen x="0" y="23" width="1680" height="1027" />
+    </state>
+    <state width="1659" height="114" key="GridCell.Tab.0.left/0.23.1680.1027@0.23.1680.1027" timestamp="1596574753537" />
+    <state width="1659" height="114" key="GridCell.Tab.0.right" timestamp="1596574753537">
+      <screen x="0" y="23" width="1680" height="1027" />
+    </state>
+    <state width="1659" height="114" key="GridCell.Tab.0.right/0.23.1680.1027@0.23.1680.1027" timestamp="1596574753537" />
+    <state x="509" y="162" key="RollbackChangesDialog" timestamp="1596573559421">
+      <screen x="0" y="23" width="1680" height="1027" />
+    </state>
+    <state x="509" y="162" key="RollbackChangesDialog/0.23.1680.1027@0.23.1680.1027" timestamp="1596573559421" />
+    <state x="349" y="175" key="SettingsEditor" timestamp="1596573539195">
+      <screen x="0" y="23" width="1680" height="1027" />
+    </state>
+    <state x="349" y="175" key="SettingsEditor/0.23.1680.1027@0.23.1680.1027" timestamp="1596573539195" />
+    <state x="541" y="284" width="598" height="504" key="find.popup" timestamp="1596573286302">
+      <screen x="0" y="23" width="1680" height="1027" />
+    </state>
+    <state x="541" y="284" width="598" height="504" key="find.popup/0.23.1680.1027@0.23.1680.1027" timestamp="1596573286302" />
+  </component>
+</project>
