@@ -1,10 +1,10 @@
-import React, { useState, useEffect } from "react";
-import Select from "./Select";
-import "./style.css";
-import { currencies } from "../../currencies";
+import React, { useEffect, useState } from 'react';
+import { currencies } from '../../lib/consts';
+import { Select } from '../Select';
+import './style.css';
 
-const Form = ({ calculateResult, calculateRate }) => {
-  const [amount, setAmount] = useState("");
+export const Form = ({ calculateResult, calculateRate }) => {
+  const [amount, setAmount] = useState('');
   const [yourCurrency, setYourCurrency] = useState(currencies[1].shortname);
   const [finalCurrency, setFinalCurrency] = useState(currencies[2].shortname);
   const [startingRate, setStartingRate] = useState();
@@ -18,13 +18,13 @@ const Form = ({ calculateResult, calculateRate }) => {
   const onTransactionFormClick = (event) => {
     event.preventDefault();
     calculateResult(startingRate, finalRate, yourCurrency, finalCurrency, amount);
-    setAmount("")
-  }
+    setAmount('');
+  };
 
   const onExchangeRateFormClick = (event) => {
     event.preventDefault();
     calculateRate(startingRate, finalRate, yourCurrency, finalCurrency);
-  }
+  };
 
   return (
     <form className="form">
@@ -61,4 +61,3 @@ const Form = ({ calculateResult, calculateRate }) => {
     </form>
   );
 };
-export default Form;

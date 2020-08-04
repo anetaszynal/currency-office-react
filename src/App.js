@@ -1,11 +1,11 @@
 import React, { useState } from 'react';
-import Container from "./Container"
-import Header from "./Header";
-import Section from "./Section";
-import Form from "./Section/Form";
-import Result from "./Section/Result";
-import Footer from "./Footer";
-import Clock from "./Section/Form/Clock";
+import { Container } from './components/Container';
+import { Header } from './components/Header';
+import { Section } from './components/Section';
+import { Form } from './components/Form';
+import { Result } from './components/Result';
+import { Footer } from './components/Footer';
+import { Clock } from './components/Clock';
 
 function App() {
   const [result, setResult] = useState();
@@ -14,26 +14,26 @@ function App() {
   const calculateResult = (startingRate, finalRate, yourCurrency, finalCurrency, amount) => {
     setResult({
       sourceAmount: (+amount).toFixed(2),
-      targetAmount: (amount * (startingRate/finalRate)).toFixed(2),
+      targetAmount: (amount * (startingRate / finalRate)).toFixed(2),
       yourCurrency,
-      finalCurrency,
+      finalCurrency
     });
   };
 
   const calculateRate = (startingRate, finalRate, yourCurrency, finalCurrency) => {
     setExchangeRate({
-      calculateRate: (startingRate/finalRate).toFixed(2),
+      calculateRate: (startingRate / finalRate).toFixed(2),
       yourCurrency,
-      finalCurrency,
+      finalCurrency
     });
-  }
+  };
 
   return (
     <Container>
       <Header title="Internetowy kantor" />
       <Section
         title="Wprowadź dane:"
-        additionalParagraph={<Clock/>}
+        additionalParagraph={<Clock />}
         body={<Form
           calculateResult={calculateResult}
           calculateRate={calculateRate}
@@ -53,6 +53,6 @@ function App() {
       </Footer>
     </Container>
   );
-};
+}
 
 export default App;

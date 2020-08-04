@@ -1,7 +1,7 @@
-import React from "react";
-import { currencies } from "../../../currencies"
+import React from 'react';
+import { currencies } from '../lib/consts';
 
-const Select = ({ title, onSelectChange, currency }) => {
+export const Select = ({ title, onSelectChange, currency }) => {
   return (
     <label className="form__label">
       <p className="form__paragraph">{title}</p>
@@ -9,17 +9,16 @@ const Select = ({ title, onSelectChange, currency }) => {
         className="form__field"
         value={currency}
         onChange={onSelectChange}>
-        {currencies.map((currency => (
+        {currencies.map((({ shortname, name }) => (
           <option
-            key={currency.shortname}
-            value={currency.shortname}
+            key={shortname}
+            value={shortname}
           >
-            {currency.name}
+            {name}
           </option>
         )))}
       </select>
     </label>
   );
 };
-export default Select;
 
