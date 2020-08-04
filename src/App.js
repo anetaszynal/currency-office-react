@@ -5,6 +5,7 @@ import Section from "./Section";
 import Form from "./Section/Form";
 import Result from "./Section/Result";
 import Footer from "./Footer";
+import Clock from "./Section/Form/Clock";
 
 function App() {
   const [result, setResult] = useState();
@@ -32,6 +33,7 @@ function App() {
       <Header title="Internetowy kantor" />
       <Section
         title="Wprowadź dane:"
+        additionalParagraph={<Clock/>}
         body={<Form
           calculateResult={calculateResult}
           calculateRate={calculateRate}
