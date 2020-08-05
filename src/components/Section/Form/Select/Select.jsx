@@ -1,5 +1,5 @@
 import React from "react";
-import { currencies } from "../../../../library/currencies"
+import { currencies } from "../../../../lib/currencies"
 
 export const Select = ({ title, onSelectChange, currency }) => {
   return (

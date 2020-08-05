@@ -5,7 +5,7 @@ import { Section } from "./components/Section";
 import { Form } from "./components/Section/Form";
 import { Result } from "./components/Section/Result";
 import { Footer } from "./components/Footer";
-import { Clock } from "./library/clock";
+import { Clock } from "./lib/clock";
 
 function App() {
   const [result, setResult] = useState();
