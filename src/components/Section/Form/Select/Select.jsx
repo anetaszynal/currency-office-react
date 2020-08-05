@@ -1,7 +1,7 @@
 import React from "react";
-import { currencies } from "../../../currencies"
+import { currencies } from "../../../../library/currencies"
 
-const Select = ({ title, onSelectChange, currency }) => {
+export const Select = ({ title, onSelectChange, currency }) => {
   return (
     <label className="form__label">
       <p className="form__paragraph">{title}</p>
@@ -22,5 +22,4 @@ const Select = ({ title, onSelectChange, currency }) => {
     </label>
   );
 };
-export default Select;
 

@@ -22,7 +22,6 @@ export const Clock = () => {
     second: "numeric"
   })
 
-
   return (
     <p className="section__paragraph section__paragraph--date">
       {`Dzisiaj jest ${formatedDate}`}

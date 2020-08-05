@@ -1,6 +1,6 @@
 import React from "react";
 
-const Result = ({ result, exchangeRate }) => {
+export const Result = ({ result, exchangeRate }) => {
   return (
     <>
       <p className="section__paragraph">
@@ -22,5 +22,3 @@ const Result = ({ result, exchangeRate }) => {
     </>
   );
 };
-
-export default Result;

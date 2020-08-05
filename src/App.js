@@ -1,11 +1,11 @@
 import React, { useState } from 'react';
-import Container from "./Container"
-import Header from "./Header";
-import Section from "./Section";
-import Form from "./Section/Form";
-import Result from "./Section/Result";
-import Footer from "./Footer";
-import {Clock} from "./Section/Form/Clock";
+import { Container } from "./components/Container";
+import { Header } from "./components/Header";
+import { Section } from "./components/Section";
+import { Form } from "./components/Section/Form";
+import { Result } from "./components/Section/Result";
+import { Footer } from "./components/Footer";
+import { Clock } from "./library/clock";
 
 function App() {
   const [result, setResult] = useState();

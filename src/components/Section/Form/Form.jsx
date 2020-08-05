@@ -1,9 +1,9 @@
 import React, { useState, useEffect } from "react";
-import Select from "./Select";
+import { Select } from "./Select";
 import "./style.css";
-import { currencies } from "../../currencies";
+import { currencies } from "../../../library/currencies";
 
-const Form = ({ calculateResult, calculateRate }) => {
+export const Form = ({ calculateResult, calculateRate }) => {
   const [amount, setAmount] = useState("");
   const [yourCurrency, setYourCurrency] = useState(currencies[1].shortname);
   const [finalCurrency, setFinalCurrency] = useState(currencies[2].shortname);
@@ -59,4 +59,3 @@ const Form = ({ calculateResult, calculateRate }) => {
     </form>
   );
 };
-export default Form;
