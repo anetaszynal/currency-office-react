@@ -18,5 +18,5 @@ export const currencies = [
     shortname: "USD",
     name: "Dolar ameryksański",
     rate: 3.7549,
-  },
-]
+  }
+];

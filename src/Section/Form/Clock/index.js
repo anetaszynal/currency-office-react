@@ -1,18 +1,26 @@
 import React, { useState, useEffect } from 'react';
 
-const Clock = () => {
+export const Clock = () => {
   const [date, setDate] = useState(new Date())
 
   useEffect(() => {
     const intervalId = setInterval(() => {
       setDate(new Date());
     }, 1000);
+
     return () => {
       clearInterval(intervalId);
     };
   }, []);
 
-  const formatedDate = date.toLocaleString("pl-Pl", { weekday: "long", month: "long", day: "numeric", hour: "numeric", minute: "numeric", second: "numeric" })
+  const formatedDate = date.toLocaleString("pl-Pl", {
+    weekday: "long",
+    month: "long",
+    day: "numeric",
+    hour: "numeric",
+    minute: "numeric",
+    second: "numeric"
+  })
 
 
   return (
@@ -21,6 +29,4 @@ const Clock = () => {
     </p>
   );
 };
-
-export default Clock;
 

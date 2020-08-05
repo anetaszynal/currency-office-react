@@ -24,7 +24,7 @@ const Form = ({ calculateResult, calculateRate }) => {
   const onExchangeRateFormClick = (event) => {
     event.preventDefault();
     calculateRate(startingRate, finalRate, yourCurrency, finalCurrency);
-  }
+  };
 
   return (
     <form className="form">
@@ -34,14 +34,12 @@ const Form = ({ calculateResult, calculateRate }) => {
           title="Wybierz walutę, którą chcesz wymienić:"
           onSelectChange={({ target }) => setYourCurrency(target.value)}
           currency={yourCurrency}
-        >
-        </Select>
+        />
         <Select
           title="Wybierz walutę, którą chcesz otrzymać:"
           onSelectChange={({ target }) => setFinalCurrency(target.value)}
           currency={finalCurrency}
-        >
-        </Select>
+        />
         <label className="form__label">
           <p className="form__paragraph">Wpisz kwotę którą dysponujesz: </p>
           <input
