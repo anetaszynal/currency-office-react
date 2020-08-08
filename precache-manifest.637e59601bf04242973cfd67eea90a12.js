@@ -1,10 +1,10 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "e7f996fabf8eae2c5facc4a916c12a80",
+    "revision": "99d488beca418fc22d870f7b96a17026",
     "url": "/currency-office-react/index.html"
   },
   {
-    "revision": "229ccdcfc2700c87bcea",
+    "revision": "44efddc24547bcee21a6",
     "url": "/currency-office-react/static/css/main.a79d1a30.chunk.css"
   },
   {
@@ -16,8 +16,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/currency-office-react/static/js/2.2bc4ca84.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "229ccdcfc2700c87bcea",
-    "url": "/currency-office-react/static/js/main.fba088aa.chunk.js"
+    "revision": "44efddc24547bcee21a6",
+    "url": "/currency-office-react/static/js/main.60b46d11.chunk.js"
   },
   {
     "revision": "b7b90f348dfd023fd92e",
