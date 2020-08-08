@@ -2,10 +2,10 @@ import React, { useState } from 'react';
 import { Container } from "./components/Container";
 import { Header } from "./components/Header";
 import { Section } from "./components/Section";
-import { Form } from "./components/Section/Form";
-import { Result } from "./components/Section/Result";
+import { Form } from "./components/Form";
+import { Result } from "./components/Result";
 import { Footer } from "./components/Footer";
-import { Clock } from "./lib/clock";
+import { Clock } from "./components/Clock";
 
 function App() {
   const [result, setResult] = useState();

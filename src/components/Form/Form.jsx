@@ -1,7 +1,7 @@
 import React, { useState, useEffect } from "react";
 import { Select } from "./Select";
 import "./style.css";
-import { currencies } from "../../../lib/currencies";
+import { currencies } from "../../lib/currencies";
 
 export const Form = ({ calculateResult, calculateRate }) => {
   const [amount, setAmount] = useState("");
