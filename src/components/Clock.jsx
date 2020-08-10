@@ -13,7 +13,7 @@ export const Clock = () => {
     };
   }, []);
 
-  const formatedDate = date.toLocaleString("pl-Pl", {
+  const formatedDate = (date) => date.toLocaleString(undefined, {
     weekday: "long",
     month: "long",
     day: "numeric",
@@ -24,7 +24,7 @@ export const Clock = () => {
 
   return (
     <p className="section__paragraph section__paragraph--date">
-      {`Dzisiaj jest ${formatedDate}`}
+      Dzisiaj jest {" "} {formatedDate(date)}
     </p>
   );
 };
