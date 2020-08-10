@@ -1,6 +1,6 @@
 import React, { useState, useEffect } from "react";
 import { Select } from "./Select";
-import "./style.css";
+import { FormContent, FormFieldset, FormLegend, FormLabel, FormParagraph, FormInput, FormButton } from './styled';
 import { currencies } from "../../lib/currencies";
 
 export const Form = ({ calculateResult, calculateRate }) => {
@@ -27,9 +27,9 @@ export const Form = ({ calculateResult, calculateRate }) => {
   };
 
   return (
-    <form className="form">
-      <fieldset className="form__fieldset">
-        <legend className="form__legend">Dokonaj transakcji</legend>
+    <FormContent>
+      <FormFieldset>
+        <FormLegend>Dokonaj transakcji</FormLegend>
         <Select
           title="Wybierz walutę, którą chcesz wymienić:"
           onSelectChange={({ target }) => setYourCurrency(target.value)}
@@ -40,10 +40,10 @@ export const Form = ({ calculateResult, calculateRate }) => {
           onSelectChange={({ target }) => setFinalCurrency(target.value)}
           currency={finalCurrency}
         />
-        <label className="form__label">
-          <p className="form__paragraph">Wpisz kwotę którą dysponujesz: </p>
-          <input
-            className="form__field form__field--otherWidth"
+        <FormLabel>
+          <FormParagraph>Wpisz kwotę którą dysponujesz: </FormParagraph>
+          <FormInput
+            otherWidth
             name="amount"
             placeholder="100.00"
             step="0.01"
@@ -51,11 +51,13 @@ export const Form = ({ calculateResult, calculateRate }) => {
             value={amount}
             onChange={({ target }) => setAmount(target.value)}
           />
-        </label>
-        <button onClick={onExchangeRateFormClick} className="form__button">Sprawdź kurs</button>
-        <button onClick={onTransactionFormClick} className="form__button">Dokonaj transakcji</button>
-      </fieldset>
-      <p className="form__paragraph form__paragraph--additionalInfo">Aby dokonać transakcji uzupełnij pole z kwotą.</p>
-    </form>
+        </FormLabel>
+        <FormButton onClick={onExchangeRateFormClick} >Sprawdź kurs</FormButton>
+        <FormButton onClick={onTransactionFormClick} >Dokonaj transakcji</FormButton>
+      </FormFieldset>
+      <FormParagraph additionalInfo>
+        Aby dokonać transakcji uzupełnij pole z kwotą.
+        </FormParagraph>
+    </FormContent>
   );
 };
