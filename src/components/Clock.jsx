@@ -1,4 +1,5 @@
 import React, { useState, useEffect } from 'react';
+import { SectionParagraph } from './Section/styled';
 
 export const Clock = () => {
   const [date, setDate] = useState(new Date())
@@ -23,9 +24,9 @@ export const Clock = () => {
   })
 
   return (
-    <p className="section__paragraph section__paragraph--date">
+    <SectionParagraph date>
       Dzisiaj jest {" "} {formatedDate(date)}
-    </p>
+    </SectionParagraph>
   );
 };
 

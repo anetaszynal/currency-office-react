@@ -1,10 +1,10 @@
 import React from "react";
-import "./style.css"
+import { SectionContent, SectionTitle } from './styled';
 
 export const Section = ({ title, children, additionalParagraph }) => (
-  <section className="section">
-    <h2 className="section__title">{title}</h2>
+  <SectionContent>
+    <SectionTitle>{title}</SectionTitle>
     <div>{additionalParagraph}</div>
     <div>{children}</div>
-  </section>
+  </SectionContent>
 );
