@@ -1,8 +1,8 @@
 import React from "react";
-import "./style.css"
+import { HeaderContent, HeaderTitle } from './styled'
 
 export const Header = ({ title }) => (
-  <header className="header">
-    <h1 className="header__title">{title}</h1>
-  </header>
+  <HeaderContent>
+    <HeaderTitle>{title}</HeaderTitle>
+  </HeaderContent>
 );
