@@ -3,7 +3,7 @@ import { Container } from "./components/Container";
 import { Header } from "./components/Header";
 import { Section } from "./components/Section";
 import { Form } from "./components/Form";
-import { Result } from "./components/Result";
+import { Result } from "./components/Result"
 import { Footer } from "./components/Footer";
 import { Clock } from "./components/Clock";
 
@@ -14,7 +14,7 @@ function App() {
   const calculateResult = (startingRate, finalRate, yourCurrency, finalCurrency, amount) => {
     setResult({
       sourceAmount: (+amount).toFixed(2),
-      targetAmount: (amount * (startingRate / finalRate)).toFixed(2),
+      targetAmount: (amount * startingRate / finalRate).toFixed(2),
       yourCurrency,
       finalCurrency
     });
