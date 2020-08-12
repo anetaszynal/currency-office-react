@@ -1,6 +1,6 @@
 import styled, { css } from 'styled-components';
 
-export const FormContent = styled.form`
+export const FormContainer = styled.form`
   margin: 10px;
   overflow-x: scroll;
 `;
@@ -37,7 +37,7 @@ export const FormParagraph = styled.p`
   `}
 `;
 
-export const FormInput = styled.input`
+export const FormField = styled.input`
   margin: 10px;
   padding: 5px;
   flex-grow: 1;
@@ -45,15 +45,6 @@ export const FormInput = styled.input`
   min-width: 230px;
   font-size: 18px;
   min-width: 240px;
-`;
-
-export const FormSelect = styled.select`
-  margin: 10px;
-  padding: 5px;
-  flex-grow: 1;
-  flex-shrink: 0;
-  min-width: 230px;
-  font-size: 18px;
 `;
 
 export const FormButton = styled.button`

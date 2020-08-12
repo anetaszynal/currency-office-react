@@ -1,12 +1,13 @@
 import React from "react";
 import { currencies } from "../../lib/currencies";
-import { FormLabel, FormParagraph, FormSelect } from './styled';
+import { FormLabel, FormParagraph, FormField } from './styled';
 
 export const Select = ({ title, onSelectChange, currency }) => {
   return (
     <FormLabel>
       <FormParagraph>{title}</FormParagraph>
-      <FormSelect
+      <FormField
+        as="select"
         value={currency}
         onChange={onSelectChange}
       >
@@ -18,7 +19,7 @@ export const Select = ({ title, onSelectChange, currency }) => {
             {name}
           </option>
         )))}
-      </FormSelect>
+      </FormField>
     </FormLabel>
   );
 };

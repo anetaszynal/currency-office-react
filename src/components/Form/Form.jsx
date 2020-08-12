@@ -1,33 +1,29 @@
-import React, { useState, useEffect } from "react";
+import React, { useState } from "react";
 import { Select } from "./Select";
-import { FormContent, FormFieldset, FormLegend, FormLabel, FormParagraph, FormInput, FormButton } from './styled';
+import { FormContainer, FormFieldset, FormLegend, FormLabel, FormParagraph, FormField, FormButton } from './styled';
 import { currencies } from "../../lib/currencies";
 
 export const Form = ({ calculateResult, calculateRate }) => {
   const [amount, setAmount] = useState("");
   const [yourCurrency, setYourCurrency] = useState(currencies[1].shortname);
   const [finalCurrency, setFinalCurrency] = useState(currencies[2].shortname);
-  const [startingRate, setStartingRate] = useState();
-  const [finalRate, setFinalRate] = useState();
 
-  useEffect(() => {
-    setStartingRate(currencies.find(({ shortname }) => shortname === yourCurrency).rate);
-    setFinalRate(currencies.find(({ shortname }) => shortname === finalCurrency).rate);
-  }, [yourCurrency, finalCurrency]);
+  const startingRate = currencies.find(({ shortname }) => shortname === yourCurrency).rate;
+  const finalRate = currencies.find(({ shortname }) => shortname === finalCurrency).rate;
 
-  const onTransactionFormClick = (event) => {
+  const onTransactionButtonClick = (event) => {
     event.preventDefault();
     calculateResult(startingRate, finalRate, yourCurrency, finalCurrency, amount);
     setAmount("")
   }
 
-  const onExchangeRateFormClick = (event) => {
+  const onExchangeRateButtonClick = (event) => {
     event.preventDefault();
     calculateRate(startingRate, finalRate, yourCurrency, finalCurrency);
   };
 
   return (
-    <FormContent>
+    <FormContainer>
       <FormFieldset>
         <FormLegend>Dokonaj transakcji</FormLegend>
         <Select
@@ -42,7 +38,7 @@ export const Form = ({ calculateResult, calculateRate }) => {
         />
         <FormLabel>
           <FormParagraph>Wpisz kwotę którą dysponujesz: </FormParagraph>
-          <FormInput
+          <FormField
             otherWidth
             name="amount"
             placeholder="100.00"
@@ -52,12 +48,12 @@ export const Form = ({ calculateResult, calculateRate }) => {
             onChange={({ target }) => setAmount(target.value)}
           />
         </FormLabel>
-        <FormButton onClick={onExchangeRateFormClick} >Sprawdź kurs</FormButton>
-        <FormButton onClick={onTransactionFormClick} >Dokonaj transakcji</FormButton>
+        <FormButton onClick={onExchangeRateButtonClick} >Sprawdź kurs</FormButton>
+        <FormButton onClick={onTransactionButtonClick} >Dokonaj transakcji</FormButton>
       </FormFieldset>
       <FormParagraph additionalInfo>
         Aby dokonać transakcji uzupełnij pole z kwotą.
         </FormParagraph>
-    </FormContent>
+    </FormContainer>
   );
 };
