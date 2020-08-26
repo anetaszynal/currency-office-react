@@ -7,6 +7,7 @@ import { Result } from "./components/Result";
 import { Footer } from "./components/Footer";
 import { Clock } from "./components/Clock";
 import { useCurrencies } from "./lib/useCurrencies";
+import { Paragraph } from "./components/Styles/styled";
 
 function App() {
   const currenciesData = useCurrencies();
@@ -37,21 +38,32 @@ function App() {
   return (
     <Container>
       <Header title="Internetowy kantor" />
-      <Section title="Wprowadź dane:" additionalParagraph={<Clock />}>
-        <Form
-          currenciesData={currenciesData}
-          calculateResult={calculateResult}
-          calculateRate={calculateRate}
-        />
-      </Section>
-      <Section title="Wynik:">
-        <Result
-          result={result}
-          exchangeRate={exchangeRate}
-          currenciesData={currenciesData}
-        />
-      </Section>
-      <Footer title="Kontakt:" currenciesData={currenciesData} />
+      {currenciesData.loading && (
+        <Paragraph>
+          Proszę czekać... Trwa pobieranie aktualnych kursów walut.
+        </Paragraph>
+      )}
+      {!currenciesData.loading && currenciesData.error && (
+        <Paragraph>
+          Przepraszamy, nie udało pobrać się kursów walut. Proszę sprawdzić
+          połączenie z internetem.
+        </Paragraph>
+      )}
+      {!currenciesData.loading && !currenciesData.error && (
+        <>
+          <Section title="Wprowadź dane:" additionalParagraph={<Clock />}>
+            <Form
+              currenciesData={currenciesData}
+              calculateResult={calculateResult}
+              calculateRate={calculateRate}
+            />
+          </Section>
+          <Section title="Wynik:">
+            <Result result={result} exchangeRate={exchangeRate} />
+          </Section>
+        </>
+      )}
+      <Footer title="Kontakt:" currenciesDate={currenciesData.date} />
     </Container>
   );
 }
