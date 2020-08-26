@@ -7,8 +7,8 @@ export const Select = ({ title, currenciesData, currency, onSelectChange }) => {
       <FormParagraph>{title}</FormParagraph>
       <FormField as="select" value={currency} onChange={onSelectChange}>
         {currenciesData &&
-          Object.keys(currenciesData.rates).map((rate, index) => (
-            <option key={index}>{rate}</option>
+          Object.keys(currenciesData.rates).map((rate) => (
+            <option key={rate}>{rate}</option>
           ))}
       </FormField>
     </FormLabel>
