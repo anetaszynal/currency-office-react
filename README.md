@@ -1,30 +1,29 @@
 # Simple currency converter
-My simple currency converter lets you calculate how much you would get if you exchanged one currency to another one.
+
+My simple currency converter allows you to calculate how much you would get if you exchanged one currency for another based on an exchange rate taken from the ECB
 
 ## Where can I find this converter?
 
-Below I attached link to this website: 
+Below I attached link to this website:
 
 [Currency-office](https://anetaszynal.github.io/currency-office-react/)
 
 ## Description
-You find there a place to fill amount which you want to exchange. Additionally, you can select one of four currences (one you have and the other one you want to have):
-- PLN
-- EUR
-- GBP
-- USD
 
-After pressing the button, your conversion appears.
+There you will find a place to replenish the amount you want to exchange. Additionally, you can choose one of the currencies published by the ECB (one you have and one you want to have)
+
+After pressing the button check the rate, the current rate will appear. After pressing the button, make the transaction, you will exchange your funds.
 
 **Technologies, libraries and methodologies used:**
+
 - HTML
 - CSS
 - JavaScript
 - React.js
-- BEM
 
-## How to use? 
+## How to use?
+
 1. Choose a currency type you wish to convert.
 2. Select the type of currency you want to receive.
-3. In the first field, write an amount that you want to convert.
-4. Press the button.
+3. Check the current course by pressing the button
+4. If you want to continue making the transaction, enter the amount and press the "make transaction" button
