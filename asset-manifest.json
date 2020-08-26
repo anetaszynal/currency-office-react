@@ -1,23 +1,23 @@
 {
   "files": {
     "main.css": "/currency-office-react/static/css/main.f9431a1c.chunk.css",
-    "main.js": "/currency-office-react/static/js/main.ae2afef9.chunk.js",
-    "main.js.map": "/currency-office-react/static/js/main.ae2afef9.chunk.js.map",
+    "main.js": "/currency-office-react/static/js/main.eef478ef.chunk.js",
+    "main.js.map": "/currency-office-react/static/js/main.eef478ef.chunk.js.map",
     "runtime-main.js": "/currency-office-react/static/js/runtime-main.2b2a611d.js",
     "runtime-main.js.map": "/currency-office-react/static/js/runtime-main.2b2a611d.js.map",
-    "static/js/2.c2064cb5.chunk.js": "/currency-office-react/static/js/2.c2064cb5.chunk.js",
-    "static/js/2.c2064cb5.chunk.js.map": "/currency-office-react/static/js/2.c2064cb5.chunk.js.map",
+    "static/js/2.e85e9db9.chunk.js": "/currency-office-react/static/js/2.e85e9db9.chunk.js",
+    "static/js/2.e85e9db9.chunk.js.map": "/currency-office-react/static/js/2.e85e9db9.chunk.js.map",
     "index.html": "/currency-office-react/index.html",
-    "precache-manifest.b2d2d9f3ceaa21662ec0cfdbe6a82971.js": "/currency-office-react/precache-manifest.b2d2d9f3ceaa21662ec0cfdbe6a82971.js",
+    "precache-manifest.f3311677e41de9d1450063dc6b45e4bd.js": "/currency-office-react/precache-manifest.f3311677e41de9d1450063dc6b45e4bd.js",
     "service-worker.js": "/currency-office-react/service-worker.js",
     "static/css/main.f9431a1c.chunk.css.map": "/currency-office-react/static/css/main.f9431a1c.chunk.css.map",
-    "static/js/2.c2064cb5.chunk.js.LICENSE.txt": "/currency-office-react/static/js/2.c2064cb5.chunk.js.LICENSE.txt",
+    "static/js/2.e85e9db9.chunk.js.LICENSE.txt": "/currency-office-react/static/js/2.e85e9db9.chunk.js.LICENSE.txt",
     "static/media/index.css": "/currency-office-react/static/media/background.63038f35.jpg"
   },
   "entrypoints": [
     "static/js/runtime-main.2b2a611d.js",
-    "static/js/2.c2064cb5.chunk.js",
+    "static/js/2.e85e9db9.chunk.js",
     "static/css/main.f9431a1c.chunk.css",
-    "static/js/main.ae2afef9.chunk.js"
+    "static/js/main.eef478ef.chunk.js"
   ]
 }
