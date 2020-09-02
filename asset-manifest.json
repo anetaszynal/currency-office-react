@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/currency-office-react/static/css/main.f9431a1c.chunk.css",
+    "main.css": "/currency-office-react/static/css/main.ffb3a34e.chunk.css",
     "main.js": "/currency-office-react/static/js/main.8041e3c3.chunk.js",
     "main.js.map": "/currency-office-react/static/js/main.8041e3c3.chunk.js.map",
     "runtime-main.js": "/currency-office-react/static/js/runtime-main.2b2a611d.js",
@@ -8,16 +8,16 @@
     "static/js/2.e85e9db9.chunk.js": "/currency-office-react/static/js/2.e85e9db9.chunk.js",
     "static/js/2.e85e9db9.chunk.js.map": "/currency-office-react/static/js/2.e85e9db9.chunk.js.map",
     "index.html": "/currency-office-react/index.html",
-    "precache-manifest.79edcea61e0f810777bcdd834a786f5d.js": "/currency-office-react/precache-manifest.79edcea61e0f810777bcdd834a786f5d.js",
+    "precache-manifest.2ca40fa8fa30ca57cd090a58aa3eb681.js": "/currency-office-react/precache-manifest.2ca40fa8fa30ca57cd090a58aa3eb681.js",
     "service-worker.js": "/currency-office-react/service-worker.js",
-    "static/css/main.f9431a1c.chunk.css.map": "/currency-office-react/static/css/main.f9431a1c.chunk.css.map",
+    "static/css/main.ffb3a34e.chunk.css.map": "/currency-office-react/static/css/main.ffb3a34e.chunk.css.map",
     "static/js/2.e85e9db9.chunk.js.LICENSE.txt": "/currency-office-react/static/js/2.e85e9db9.chunk.js.LICENSE.txt",
-    "static/media/index.css": "/currency-office-react/static/media/background.63038f35.jpg"
+    "static/media/index.css": "/currency-office-react/static/media/background.0eb2670a.jpg"
   },
   "entrypoints": [
     "static/js/runtime-main.2b2a611d.js",
     "static/js/2.e85e9db9.chunk.js",
-    "static/css/main.f9431a1c.chunk.css",
+    "static/css/main.ffb3a34e.chunk.css",
     "static/js/main.8041e3c3.chunk.js"
   ]
 }
