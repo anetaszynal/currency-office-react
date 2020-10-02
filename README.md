@@ -8,6 +8,10 @@ Below I attached link to this website:
 
 [Currency-office](https://anetaszynal.github.io/currency-office-react/)
 
+## Now, see how to use
+
+![To do List app Demo](instruction.gif)
+
 ## Description
 
 There you will find a place to replenish the amount you want to exchange. Additionally, you can choose one of the currencies published by the ECB (one you have and one you want to have)
