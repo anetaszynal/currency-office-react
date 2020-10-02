@@ -10,7 +10,7 @@ Below I attached link to this website:
 
 ## Now, see how to use
 
-![To do List app Demo](instruction.gif)
+![Currency-office Demo](instruction.gif)
 
 ## Description
 
