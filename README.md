@@ -1,6 +1,6 @@
 # Simple currency converter
 
-My simple currency converter allows you to calculate how much you would get if you exchanged one currency for another based on an exchange rate taken from the ECB
+My currency converter allows you to calculate how much you would get if you exchanged one currency for another based on an exchange rate taken from the ECB. I created this converter during the course by YOUCODE.
 
 ## Where can I find this converter?
 
