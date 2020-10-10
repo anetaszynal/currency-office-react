@@ -1,4 +1,4 @@
-# Simple currency converter
+# Currency converter
 
 My currency converter allows you to calculate how much you would get if you exchanged one currency for another based on an exchange rate taken from the ECB. I created this converter during the course by YOUCODE.
 
